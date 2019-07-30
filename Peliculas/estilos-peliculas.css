@@ -1,0 +1,91 @@
+ 
+ body{
+    margin:0;
+  }
+
+  
+  header .contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ 
+  p.titulo {
+    font-family: 'Volkhov', serif;
+    font-size: 60px;
+    color: white
+  }
+
+  
+
+  header {
+    background:
+    linear-gradient(rgb(84, 93, 220), rgb(245, 143, 96)),
+    url(https://image.freepik.com/vector-gratis/diseno-fondo-semitono-oscuro-abstracto_1017-15505.jpg);
+    height: 100vh;
+    background-size: cover;
+  }
+  #contenedor-titulo-flex{
+  display:flex;
+  justify-content: center;
+  margin:18vh 0;
+   }
+  
+  .contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin:auto;
+  }
+
+   .Avengers {
+    filter: drop-shadow(5px 5px 10px #444);
+    width: 200px; height: 300px;
+    border-radius: 5px;
+    position: relative;
+    left: 20px;
+  }
+  .Avengers:hover {-webkit-transform:scale(1.1);transform:scale(1.1);}
+  .contenedor {overflow:hidden;}
+
+
+
+  .Toystory4 {
+    filter: drop-shadow(5px 5px 10px #444);
+    width: 200px; height: 300px;
+    border-radius: 5px;
+    position: relative;
+    left: 40px;
+  }
+  .Toystory4:hover {-webkit-transform:scale(1.1);transform:scale(1.1);}
+  .contenedor {overflow:hidden;}
+
+
+  .CapitanaMarvel {
+    filter: drop-shadow(5px 5px 10px #444);
+    width: 200px; height: 300px;
+    border-radius: 5px;
+    position: relative;
+    left: 60px;
+  }.CapitanaMarvel:hover {-webkit-transform:scale(1.1);transform:scale(1.1);}
+  .contenedor {overflow:hidden;}
+
+  .Spiderman {
+    filter: drop-shadow(5px 5px 10px #444);
+    width: 200px; height: 300px;
+    border-radius: 5px;
+    position: relative;
+    left: 80px;
+  }
+  .Spiderman:hover {-webkit-transform:scale(1.1);transform:scale(1.1);}
+  .contenedor {overflow:hidden;}
+  
+
+  
+
+
+
+
+  
+
+
+  
